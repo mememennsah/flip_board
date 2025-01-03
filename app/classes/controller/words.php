@@ -39,6 +39,8 @@ class Controller_Words extends Controller
             $japanese_translation = Input::post('japanese_translation');
             $user_id = Session::get('user_id');
 
+            \Fuel\Core\Log::debug("Received: $english_word, $japanese_translation for user_id: $user_id");
+            
             // モデルを利用して単語を追加
             $word_id = Model_Word::add_word($english_word, $japanese_translation, $user_id);
 

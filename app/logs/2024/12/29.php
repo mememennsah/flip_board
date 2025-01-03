@@ -625,3 +625,119 @@ WARNING - 2024-12-29 16:33:54 --> Fuel\Core\Fuel::init - The configured locale j
 INFO - 2024-12-29 16:33:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
 INFO - 2024-12-29 16:33:54 --> Fuel\Core\Request::execute - Called
 INFO - 2024-12-29 16:33:54 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 16:46:15 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 16:46:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 16:46:15 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 16:46:15 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 16:46:32 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 16:46:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/add"
+INFO - 2024-12-29 16:46:32 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 16:46:32 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 16:48:31 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 16:48:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 16:48:31 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 16:48:31 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 16:48:33 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 16:48:33 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 16:48:33 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 16:48:33 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 17:59:30 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 17:59:30 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "auth/login"
+INFO - 2024-12-29 17:59:30 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 17:59:30 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 17:59:35 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 17:59:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "auth/login"
+INFO - 2024-12-29 17:59:35 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 17:59:35 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 17:59:35 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 17:59:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "dashboard/index"
+INFO - 2024-12-29 17:59:35 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 17:59:35 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 17:59:47 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 17:59:47 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 17:59:47 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 17:59:47 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 17:59:51 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 17:59:51 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/edit/1"
+INFO - 2024-12-29 17:59:51 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 17:59:51 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 17:59:54 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 17:59:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/edit/1"
+INFO - 2024-12-29 17:59:54 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 17:59:54 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 17:59:54 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 17:59:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 17:59:54 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 17:59:54 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 17:59:56 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 17:59:56 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/edit/7"
+INFO - 2024-12-29 17:59:56 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 17:59:56 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 17:59:59 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 17:59:59 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/edit/7"
+INFO - 2024-12-29 17:59:59 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 17:59:59 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 17:59:59 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 17:59:59 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 17:59:59 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 17:59:59 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 18:00:05 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 18:00:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/add"
+INFO - 2024-12-29 18:00:05 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 18:00:05 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 18:00:20 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 18:00:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/add"
+INFO - 2024-12-29 18:00:21 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 18:00:21 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 18:00:21 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 18:00:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 18:00:21 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 18:00:21 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 18:00:29 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 18:00:29 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/add"
+INFO - 2024-12-29 18:00:29 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 18:00:29 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 18:00:56 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 18:00:56 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/add"
+INFO - 2024-12-29 18:00:56 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 18:00:56 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 18:00:56 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 18:00:56 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 18:00:56 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 18:00:56 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 18:01:01 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 18:01:01 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/delete/10"
+INFO - 2024-12-29 18:01:01 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 18:01:01 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 18:01:01 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 18:01:01 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 18:01:01 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 18:01:01 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 18:01:04 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 18:01:04 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/delete/12"
+INFO - 2024-12-29 18:01:04 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 18:01:04 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 18:01:04 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 18:01:04 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 18:01:04 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 18:01:04 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 21:40:34 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 21:40:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 21:40:35 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 21:40:35 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 21:40:35 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 21:40:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "auth/login"
+INFO - 2024-12-29 21:40:35 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 21:40:35 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 21:40:40 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 21:40:40 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "auth/login"
+INFO - 2024-12-29 21:40:40 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 21:40:40 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 21:40:41 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 21:40:41 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "dashboard/index"
+INFO - 2024-12-29 21:40:41 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 21:40:41 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2024-12-29 21:40:47 --> Fuel\Core\Fuel::init - The configured locale ja_JP.utf8 is not installed on your system.
+INFO - 2024-12-29 21:40:47 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "words/index"
+INFO - 2024-12-29 21:40:47 --> Fuel\Core\Request::execute - Called
+INFO - 2024-12-29 21:40:47 --> Fuel\Core\Request::execute - Setting main Request
