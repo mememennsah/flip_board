@@ -12,21 +12,19 @@ class Model_Word extends \Fuel\Core\Model
 
         try {
             // 単語をwordsテーブルに追加
-            $word_id = DB::insert('words')->set([
+            $result = DB::insert('words')->set([
                 'english_word' => $english_word,
                 'japanese_translation' => $japanese_translation,
-            ])->execute()[0];
-
-            // ユーザーに紐づけ
-            DB::insert('user_words')->set([
-                'user_id' => $user_id,
-                'word_id' => $word_id,
             ])->execute();
+
+            $word_id = $result[0]; // 挿入されたIDを取得
+
+            \Fuel\Core\Log::debug("New word added with ID: $word_id");
 
             // トランザクションをコミット
             DB::commit_transaction();
 
-            return true;
+            return $word_id; // 新しい単語のIDを返す
         } catch (\Exception $e) {
             // トランザクションをロールバック
             DB::rollback_transaction();
@@ -34,6 +32,7 @@ class Model_Word extends \Fuel\Core\Model
             return false;
         }
     }
+
 
     // 単語を取得
     public static function get_words_by_user($user_id)

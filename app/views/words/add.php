@@ -5,7 +5,7 @@
         <?php endforeach; ?>
     </ul>
 <?php endif; ?>
-<form action="" method="post">
+<form action="add" method="post">
     <?= \Fuel\Core\Form::csrf() ?>
     <div>
         <label for="english_word">英単語:</label>
@@ -18,4 +18,6 @@
     <div>
         <button type="submit">追加</button>
     </div>
+
+    <a href="<?= Uri::create('words/index') ?>">戻る</a>
 </form>

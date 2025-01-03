@@ -19,6 +19,8 @@ class Model_UserWord extends \Fuel\Core\Model
     // ユーザーに単語を紐づける
     public static function add_user_word($user_id, $word_id, $status = 'unknown')
     {
+        \Fuel\Core\Log::debug("Adding user_word: user_id = $user_id, word_id = $word_id, status = $status");
+        
         return DB::insert('user_words')->set([
             'user_id' => $user_id,
             'word_id' => $word_id,
