@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>単語一覧</title>
+    <title><?= htmlspecialchars($app_name) ?> - 単語一覧</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-min.js"></script>
     <script src="/assets/js/words.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
     <div class="container mt-5">
-        <h1 class="mb-4">単語一覧</h1>
+        <h1 class="mb-4"><?= htmlspecialchars($app_name) ?> - 単語一覧</h1>
+        <p>1ページあたりの最大単語数: <?= htmlspecialchars($items_per_page) ?></p>
         <div class="mb-3">
             <a href="<?= Uri::create('words/add') ?>" class="btn btn-primary">単語を追加</a>
             <a href="<?= Uri::create('words/import') ?>" class="btn btn-secondary">CSVインポート</a>
