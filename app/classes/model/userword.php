@@ -5,16 +5,18 @@
 class Model_UserWord extends \Fuel\Core\Model
 {
     // ユーザーの学習単語を取得
-    public static function get_user_words($user_id)
+    public static function get_user_words($user_id, $limit = 20)
     {
         return DB::select('user_words.id', 'words.english_word', 'words.japanese_translation', 'user_words.status')
             ->from('user_words')
             ->join('words', 'INNER')
             ->on('user_words.word_id', '=', 'words.id')
             ->where('user_words.user_id', $user_id)
+            ->limit($limit) // ここで表示数を制限
             ->execute()
             ->as_array();
     }
+    
 
     // ユーザーに単語を紐づける
     public static function add_user_word($user_id, $word_id, $status = 'unknown')

@@ -19,16 +19,31 @@ class Controller_Words extends Controller
         }
     }
 
+
+    // use Fuel\Core\Config;
+
     public function action_index()
     {
+        // セッションからユーザーIDを取得
         $user_id = Session::get('user_id');
-
+    
+        // 1ページあたりの単語数をConfigから取得
+        $items_per_page = Config::get('my_config.items_per_page', 20); // デフォルト値20
+    
         // モデルを利用してデータを取得
-        $user_words = Model_UserWord::get_user_words($user_id);
-
-        return View::forge('words/index', ['user_words' => $user_words]);
+        $user_words = Model_UserWord::get_user_words($user_id, $items_per_page);
+    
+        // アプリ名をConfigから取得
+        $app_name = Config::get('my_config.app_name', 'Vocabulary App');
+    
+        // ビューにデータを渡す
+        return View::forge('words/index', [
+            'user_words' => $user_words,
+            'app_name' => $app_name,
+            'items_per_page' => $items_per_page,
+        ]);
     }
-
+    
     
 
     // 単語の追加
