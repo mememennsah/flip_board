@@ -13,6 +13,8 @@ class Controller_Auth extends Controller
 {
     public function action_login()
     {
+        $data = []; // エラーメッセージを格納する配列
+
         if (Input::method() === 'POST') {
             $username = Input::post('username');
             $password = Input::post('password');
@@ -27,13 +29,17 @@ class Controller_Auth extends Controller
                 // セッションにユーザー情報を保存
                 Session::set('user_id', $user['id']);
                 Session::set('username', $user['username']);
+
+                // ダッシュボードにリダイレクト
                 return Response::redirect('dashboard/index');
+            } else {
+                // エラーメッセージを設定
+                $data['error'] = 'ユーザー名またはパスワードが正しくありません。';
             }
         }
 
-        return View::forge('auth/login', isset($data) ? $data : []);
+        return View::forge('auth/login', $data);
     }
-
 
     public function action_logout()
     {
